@@ -1,3 +1,14 @@
+# NLP Assignment 2 Q2
+To change parameters to test for different layers specify them in the constructor of the BiLSTM_CRF class. Examples would be as follows:
+* model = BiLSTM_CRF(vocab_size=len(word_to_id),
+                    ...
+                    ...
+                    n_layers=2,
+                    CNN_mode='2D',
+                    window_size=11)
+
+For some of the experiments listed in the report, hyperparameters were changed in the code itself. For example, changing the kernel size of different layers.
+
 # End-to-end-Sequence-Labeling-via-Bi-directional-LSTM-CNNs-CRF-Tutorial
 
 This is a PyTorch tutorial for the ACL'16 paper 
